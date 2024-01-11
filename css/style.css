@@ -1,0 +1,84 @@
+body{
+background-color: rgb(236, 246, 255);
+font: 15px;
+margin: auto;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.index{
+    background-color:azure;
+    font-size: 15px;
+}
+
+h1{
+    color:black;
+    font: 35px;
+    margin:auto;
+
+}
+
+img{
+max-width: 200%;
+max-height: 200%;
+border: black solid 0.2em;;
+}
+
+header{
+    background-color:black;
+    font-size: 40px;
+    text-decoration: dotted;
+    color:white;
+    padding: 1em;
+    text-align: center;
+}
+
+.hamkhdr{
+    background-color: black;
+    text-align: left;
+    color: white;
+    padding: 0.1em;
+}
+
+nav{
+  background-color:gray;
+  padding: 0.5em;
+    
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+.top-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-menu a {
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+}
+.top-menu a:hover {
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+a{
+    color:aqua;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.h2spc{
+    background-color: lightblue;
+    color:black;
+    padding: 1em;
+}

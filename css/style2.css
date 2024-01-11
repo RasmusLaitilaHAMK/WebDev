@@ -1,0 +1,62 @@
+#main-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-header h1{
+    margin: 0;
+    font-size: 32px;
+}
+#main-header p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.content-article{
+    background-color: gray;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content-article h2{
+    color:  #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.content-article p{
+    color:  #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav{
+    background-color:gray;
+    padding: 0.5em;
+      
+}
+
+nav ul{
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+  
+}
+
+nav li {
+      display: inline-block;
+      margin-right: 20px;
+}
+
+nav a {
+      text-decoration: none;
+      color: gainsboro;
+      font-weight: bold;
+}
+
+nav a:hover {
+      color: black;
+  }
