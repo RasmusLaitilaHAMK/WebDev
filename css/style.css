@@ -39,6 +39,7 @@ header{
     padding: 0.1em;
 }
 figure{
+    flex-wrap: wrap-reverse;
     display: flex;
 }
 
