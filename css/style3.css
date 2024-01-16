@@ -6,8 +6,9 @@ p{
     margin: 5px;
 }
 .bigb{
-    flex-grow: 3;
+    flex: 3;
+    flex-wrap: wrap;
 }
 .smallb{
-    flex: 1;
+    flex: 0.5;
 }

@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    }
+    header, footer{
+        display: flex;
+        background-color:purple;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        justify-content: center; 
+    }
+    
+    main{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        background-color: white;
+    }
+
+    aside{
+        
+        text-align: left;
+        color: black;
+        background-color: white;
+        font-weight: bold;
+        margin-left: 20px;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+
+    section{
+        
+        flex-direction: column;
+        flex-grow: 2;
+        flex-wrap: wrap;
+    }
+    .p{
+        background-color: aqua;
+        padding:5px;
+        margin-top: 5px;
+    }
+    h1{
+        font-weight: bold;
+    }
