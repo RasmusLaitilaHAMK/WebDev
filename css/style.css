@@ -38,6 +38,9 @@ header{
     color: white;
     padding: 0.1em;
 }
+figure{
+    display: flex;
+}
 
 nav{
   background-color:gray;
