@@ -21,17 +21,17 @@ body{
     }
 
     aside{
-        
+        flex: 300px;
         text-align: left;
-        color:white;
+        color:black;
         font-weight: bold;
         margin-left: 20px;
+        margin-top: 20px;
         flex-grow: 1;
         flex-wrap: wrap;
     }
 
     section{
-        
         flex-direction: column;
         flex-grow: 2;
         flex-wrap: wrap;
@@ -45,6 +45,10 @@ body{
     h1{
         font-weight: bold;
     }
-    a{
+    .gootA{
         color: white;
+    }
+    .asideA{
+        color: black;
+        text-decoration: none;
     }
