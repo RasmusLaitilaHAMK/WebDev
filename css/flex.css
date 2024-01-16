@@ -40,6 +40,7 @@ body{
         background-color: aqua;
         padding:5px;
         margin-top: 5px;
+        text-align: justify;
     }
     h1{
         font-weight: bold;
