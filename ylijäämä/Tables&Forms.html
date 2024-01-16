@@ -33,10 +33,10 @@
         </table>
         <br>
         <form method="post" action="process.php">
-            UID: <input type="text" name="=fname"><br>
+            UID: <input type="text" name="=fname" required minlength="2" maxlength="15"><br>
             DOB: <input type="date" name="dob"><br>
-            Email: <input type="email" name="email"><br>
-            Passwo rd: <input type="password" name="pswrd"><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" name="pswrd" required minlength="5"><br>
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </form>
