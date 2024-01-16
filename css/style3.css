@@ -5,3 +5,9 @@ p{
     background-color: cornsilk;
     margin: 5px;
 }
+.bigb{
+    flex-grow: 3;
+}
+.smallb{
+    flex: 1;
+}
