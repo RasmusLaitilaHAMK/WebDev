@@ -41,11 +41,13 @@ header{
 figure{
     flex-wrap: wrap-reverse;
     display: flex;
+    flex: 1;
 }
 
 nav{
   background-color:gray;
   padding: 0.5em;
+  text-align: center;
     
 }
 nav ul{
@@ -67,9 +69,23 @@ nav ul{
     color: black;
 }
 
+.potato li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.potato a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.potato a:hover {
+    color: black;
+}
+
 a:hover{
     color: blueviolet;
 }
+
 a{
     color:aqua;
 }

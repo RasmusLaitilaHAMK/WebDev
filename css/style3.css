@@ -1,0 +1,7 @@
+main, footer{
+    display: flex;
+}
+p{
+    background-color: cornsilk;
+    margin: 5px;
+}
