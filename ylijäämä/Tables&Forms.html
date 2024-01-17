@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Basic CSS Example</title>
-    <style>
-        td{
-            padding: 5px;
-            border: 1px solid black;
-        }
-        th{
-            padding: 5px;
-            border: 1px solid black;
-        }
-    </style>
 </head>
 <body>
     <main>
-        <table style="border: 1px solid #333; border-collapse:collapse; border: spacing 0px;">
-            <tr>
-                <th>Fname</th>
-                <th>Lname</th>
-                <th>City</th>
-                <th>PostA</th>
+       <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+        <tbody>
+         <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
             </tr>
             <tr>
-                <td>Pekka</td>
-                <td>Mattinen</td>
-                <td>Helsinki</td>
-                <td>01100</td>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
             </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Jack</td>
+                <td>Coffinson</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Mike</td>
+                <td>Falcon</td>
+            </tr>
+            </tbody>
         </table>
         <br>
         <form method="post" action="process.php">
@@ -47,4 +55,6 @@
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">guide page</a><br>
         <a href="../index.html">Home</a>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
