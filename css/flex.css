@@ -80,20 +80,20 @@ body{
         color: black;
         margin: 10px;
     }
-    .itemBig{
-        flex: 2;
-        padding: 10px solid black;
-        border: 2px solid black;
-        background-color:rgb(125, 198, 223);
-        color: black;
-        margin: 10px;
-    }
-    .container{
-        display: flex;
-        justify-content: center;
-    }
-    .sub{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
+        .itemBig{
+            flex: 2;
+            padding: 10px solid black;
+            border: 2px solid black;
+            background-color:rgb(125, 198, 223);
+            color: black;
+            margin: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .sub{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
